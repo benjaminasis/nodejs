@@ -2,7 +2,7 @@ var express = require("express");
 var app = express();
 
 app.get("/url", (req,res,next) => {
-  res.json(["Testing autobuild and deploy using jenkins"]);
+  res.json(["Testing autobuild and deploy of app using jenkins"]);
 
 });
   app.listen(3000, () => {
